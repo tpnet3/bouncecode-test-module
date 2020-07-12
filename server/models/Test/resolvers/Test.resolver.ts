@@ -26,7 +26,7 @@ export class TestResolver {
   @Mutation(() => TestObject)
   async test(@Arg("message") message: string) {
     const testObject = new TestObject();
-    testObject.message = message;
+    testObject.message = message + "bbbbbbb";
     return testObject;
   }
 }

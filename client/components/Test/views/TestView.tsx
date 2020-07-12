@@ -17,5 +17,5 @@ export interface ITestView {
  * 테스트 화면입니다.
  */
 export function TestView(props: ITestView) {
-  return <div>{JSON.stringify(props.data)}</div>;
+  return <div>{JSON.stringify(props.data)} aaaaaaaaa</div>;
 }
